@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    background: linear-gradient(to bottom, #f7e6a2, #cce7ff);
+    color: #333;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header with fantasy-style background */
+header {
+    background: url('360_F_831711564_H0o37V8smBjTTDJJxyfFjsNJNfc5QmBH.jpg') no-repeat center center/cover;
+    padding: 40px;
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid gold;
+}
+h1 {
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav a {
+    color: #d4a017;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #ffd700;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    text-align: center;
+    transition: background 0.3s, transform 0.3s;
+    cursor: pointer; /* Makes it feel clickable */
+}
+
+section:hover {
+    background: gold;
+    transform: scale(1.05);
+}
+
+/* Section-Specific Hover Effects */
+section:active {
+    background: #ffd700;
+}
+
+/* Footer */
+footer {
+    background: gold;
+    padding: 10px;
+    font-weight: bold;
+}
